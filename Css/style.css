@@ -74,7 +74,7 @@ section{
 }
 
 #hero-section .image-section {
-    background-image: url("/Kodecamp task4/img/Header Image.png");
+    background-image: url("/bassod/Img/Header Image.png");
     background-size: cover;
     background-position: center;
     height: 78vh;
@@ -313,7 +313,7 @@ form{
     padding-bottom: 5px;
 }
 .contact-bg{
-    background-image: url("/Kodecamp task4/img/Image 1.png");
+    background-image: url("/bassod/Img/Image 1.png");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -336,7 +336,7 @@ form{
   }
 
 .contact-bg2{
-    background-image: url("/Kodecamp task4/img/ovGrEUgrkyE.png");
+    background-image: url("/bassod/Img/ovGrEUgrkyE.png");
     background-size: cover;
     background-position: center;
     width: 100%;
