@@ -6,16 +6,7 @@
 
 body{
     font-family: 'Manrope', sans-serif;
-}
-
-.container {
     width: 100%;
-    margin: 0px auto;
-}
-
-section{
-  justify-content: center;
-  margin-left: 50px;
 }
 
 .main-header {
@@ -60,13 +51,15 @@ section{
 .flex {
     display: flex;
 }
+
 /* hero section styling*/
 #hero-section .text-section{
     width: 50%;
+    padding-left: 30px;
 } 
 
 #hero-section .image-section {
-    width: 50%;
+    width: 80%;
 }
 
 #hero-section, #quote-section {
@@ -77,7 +70,7 @@ section{
     background-image: url("/bassod/Img/Header Image.png");
     background-size: cover;
     background-position: center;
-    height: 78vh;
+    height: 100vh;
     width: 100vh;
 }
 
@@ -127,7 +120,8 @@ section{
 }
 
 #quote-section .left-section #quote-section .right-form-section {
-    width: 100px;
+    width: 100%;
+    padding-left: 30px;
 }
 
 #quote-section ul {
@@ -184,13 +178,14 @@ form{
 /*follow process-section styling */
 
 #process-section .left-section{ 
-    width: 60%;
-    margin: 0px;
-    padding: 8% 0;
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 30px ;
+    padding-top: 80px;
 }
 
 #process-Section .right-section {
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -211,7 +206,6 @@ form{
 
 #process-Section .right-section .image-box img {
     width: 0% auto;
-  
 }
 
 .vertical{
@@ -232,8 +226,8 @@ form{
     font-size: 24px;
     margin-bottom: 10px;
 }
-/* Offer session styling */
 
+/* Offer session styling */
 #we-offer{
     background-color: #F2F2F2;
     width: 100%;
@@ -267,8 +261,8 @@ form{
 .flex-icon{
     align-items: center;
     padding: 40px;
-    height: 180px;
-    width: 180px;
+    height: 100%;
+    width: 100%;
     text-align: center;
     background-color: #FFFFFF;
     margin-right: 1.5%;
@@ -277,10 +271,10 @@ form{
 }
 
 .flex-icon p{
-    padding-top: 5px;
+    padding-top: 2px;
 }
 
-.flex-icon: hover{
+.flex-icon:hover{
    background-color: #FF6433;
    color: white;
    font-weight: bold;
@@ -294,10 +288,11 @@ form{
 
 .offer-link{
     margin: auto;
-    width: 65%;
+    width: 100%;
     justify-content: flex-end;
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 30px;
+    padding-right: 50px;
 }
 
 .offer-link a{
@@ -308,9 +303,11 @@ form{
 .offer-link a:hover{
     color: #FF6433;
 }
+
  /* Get in touch styling*/
 #contact-us{
     padding-bottom: 5px;
+    width: 100%
 }
 .contact-bg{
     background-image: url("/bassod/Img/Image 1.png");
@@ -345,21 +342,21 @@ form{
 
   button{
     width: 65%;
-    margin: 30px auto 0 auto;
+    margin: 80px auto 0 auto;
 
 }
 
 .black-btn{
     text-decoration: none;
     color: white;
-    padding: 10px 15px;
+    padding: 5px 15px;
     background-color: black;
     border-radius: 8px;
 
 }
-
+/* Ratings styling*/
 .flex-properties{
-    width: 80%;
+    width: 100%;
     margin:auto;
     justify-content: space-between;
 }
